@@ -1,0 +1,22 @@
+@media(max-width:1440px){
+    #wrap-box{
+        width: 100%;
+        position: relative;
+
+    }
+}
+
+@media(max-width:375px){
+    body{
+        width: 375px;
+        height: 1550px;
+    }
+    #wrap-box{
+        margin-top: 50px;
+        margin-left: 10%;
+        position: relative;
+        margin-bottom: 50px;
+
+
+    }
+}
