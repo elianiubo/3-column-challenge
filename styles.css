@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    max-width:1440px;
+    /*max-width:1440px;*/
     background:#e6e1e1;
 }
     
@@ -21,10 +21,10 @@ body{
     clear: both;
 }
 #wrap-box{
-    max-width: 100%;
+    /*max-width: 100%;*/
     display: block;
     position: absolute;
-    margin-left: 266px;
+    margin-left: 779px;
     margin-top: 168px;
     
 }
