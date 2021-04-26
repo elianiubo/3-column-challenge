@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    max-width:1440px;
+    /*max-width:1440px;*/
     background:#e6e1e1;
 }
     
@@ -21,17 +21,17 @@ body{
     clear: both;
 }
 #wrap-box{
-    max-width: 100%;
+   /* max-width: 100%;
     display: block;
     position: absolute;
     margin-left: 405px;
-    margin-top: 168px;
+    margin-top: 168px;*/
     
-    /*display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
-    top: 80px;*/
+    top: 80px;
     
 }
 #sedans-box{
