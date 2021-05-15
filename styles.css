@@ -127,3 +127,87 @@ color:hsl(184, 100%, 22%);
    color: hsla(0, 0%, 100%, 0.637);
 
 }
+
+@media(max-width:936px) {
+        
+    body{
+        height: 1400px;
+        display: grid;
+        place-content: center;
+        padding: 5rem 2rem;
+    }
+    #wrap-box{
+        display: grid;
+        place-content: center;
+        padding: 5rem 2rem;
+        margin-top: -142px;
+        margin-left: -9%;
+        position: relative;
+        margin-bottom: -50px;
+        
+
+    }
+    #sedans-box{
+        width: 300px;
+        height: 500px;
+        background: hsl(31, 77%, 52%);
+        color:  hsl(0, 0%, 95%);
+        border-radius: 10px 10px 0px 0px;
+    }
+    #suvs-box{
+        width: 300px;
+        height: 500px;
+        background: hsl(184, 100%, 22%);
+        color:  hsl(0, 0%, 95%);
+        border-radius: none;
+    }
+    #luxury-box{
+        width: 300px;
+        height: 500px;
+        background: hsl(179, 100%, 13%);
+        color:  hsl(0, 0%, 95%);
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media(max-width:400px){
+    body{
+        width: 375px;
+        height: 1400px;
+        display: grid;
+        place-content: center;
+        padding: 5rem 2rem;
+    }
+    #wrap-box{
+        display: grid;
+        place-content: center;
+        padding: 5rem 2rem;
+        margin-top: -142px;
+        margin-left: -9%;
+        position: relative;
+        margin-bottom: -50px;
+        
+
+    }
+    #sedans-box{
+        width: 300px;
+        height: 500px;
+        background: hsl(31, 77%, 52%);
+        color:  hsl(0, 0%, 95%);
+        border-radius: 10px 10px 0px 0px;
+    }
+    #suvs-box{
+     width: 300px;
+     height: 500px;
+    background: hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%);
+    border-radius: none;
+    }
+    #luxury-box{
+    width: 300px;
+    height: 500px;
+    background: hsl(179, 100%, 13%);
+    color:  hsl(0, 0%, 95%);
+    border-radius: 0px 0px 10px 10px;
+    }
+}
