@@ -170,7 +170,7 @@ color:hsl(184, 100%, 22%);
     }
 }
 
-@media(max-width:400px){
+@media(max-width:375px){
     body{
         width: 375px;
         height: 1400px;
